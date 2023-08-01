@@ -1,0 +1,69 @@
+.user-list-con
+{
+    position: absolute;
+    width: 100vw;
+    top: 60px;
+    text-align: center;
+}
+
+.user-lists
+{
+    height: calc(100vh - 132px);
+    overflow: hidden;
+    overflow-y: auto;
+    outline: 1px solid;
+    outline-offset: -1px;
+}
+
+.ul-table
+{
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+tr
+{
+    background-color: white;
+}
+
+tr:nth-child(even)
+{
+    background-color: #ffecd5;
+}
+
+tr:hover
+{
+    background-color: #c7ffb4;
+}
+
+th
+{
+    background-color: #ff9cd8;
+    text-align: center;
+    padding: 12px;
+}
+
+.ul-edit-btn, .ul-dele-btn
+{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.ul-dele-btn
+{
+    background-color: #dd0909;
+}
