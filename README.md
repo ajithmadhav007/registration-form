@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Registration Form - React App
+
+![Screenshot](scree1.jpg)
+![Screenshot](scree2.jpg)
+![Screenshot](scree3.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
